@@ -1,0 +1,53 @@
+body
+{
+    margin:0 px;
+    padding:0 px;
+}
+.main-main-cont
+{
+    height:100vh;
+    width:100%;
+    background-image: url("https://picsum.photos/id/250/1365/720");
+    background-size: cover;
+}
+.main-cont
+{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-main
+{
+    flex: 2;
+    margin-top:40px;
+    display: flex;
+    height:200px;
+    width:50%;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(233, 63, 40, 0),0 6px 20px 0 rgba(74, 114, 235, 0);
+    color:red;
+}
+.login-head
+{
+    flex:1;
+    text-align: center;
+    margin-top:5px;
+
+
+
+}
+.login-boxes
+{
+    flex:2;
+    text-align: center;
+
+
+}
+.disp-login-content
+{
+    flex:1;
+
+        width:50%;
+}

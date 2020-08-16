@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+<link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div class="main-main-cont">
+        <div class="main-cont">
+            <div class="login-main">
+                <div class="login-head">
+                    <h1>Login</h1>
+                </div>
+                <div class="login-boxes">
+                    <form >
+                        Username:<input type="text" name="" id="uname" required> <br> <br>
+                        Email:<input type="email" name="" id="mail" required> <br> <br>
+                        Password:<input type="password" name="" id="pass" required> <br> <br>
+                        <button type="submit" onclick="comment()" >Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="disp-login-content">
+                <div id="parentDiv">
+                    <div id="childDiv" style="display: flex;flex-direction: column;visibility: hidden;">
+                        <div>
+                            <div >Username:</div>
+                            <div >Email:</div>
+                            <div >Password:</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<script src="2.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

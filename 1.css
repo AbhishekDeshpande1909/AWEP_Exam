@@ -1,0 +1,55 @@
+body
+{
+    margin:0 px;
+    padding:0 px;
+}
+ 
+.main-cont
+{
+    display:flex;
+    flex-direction: column;
+    column-gap: 10px;
+
+}
+.nav-bar
+{
+    flex:2;
+    height:65px;
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+
+}
+.main-mid
+{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.main-mult
+{
+    height: 200px;
+    width:50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (max-width:520px)
+{
+    .main-mult
+{
+    height: 200px;
+    width:100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+}
